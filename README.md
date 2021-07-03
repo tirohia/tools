@@ -11,6 +11,7 @@ Brentp heads the list:
 | [Samplot](https://github.com/ryanlayer/samplot) | rapid, multi-sample structural variant visualization |
 | [IPYIGV](https://github.com/QuantStack/ipyigv/) | Python library for embedding IGV tracks |
 | [Graph Gallery](https://www.python-graph-gallery.com/) |  A collection of plots made with python - using MatplotLib, Seaborn and Plotly |
+| [IGV Reports](https://github.com/igvteam/igv-reports) | untested, need to look into |
 
  ## Mutational Signature tools
 |     |     |
@@ -22,6 +23,7 @@ Brentp heads the list:
 |     |     |
 | --- | --- |
 | [Ella](https://gitlab.com/alleles/ella-anno) | open source curation tool, out of Oslo |
+| [Scout](https://github.com/Clinical-Genomics/scout) | open source curation tool, ESR are using it |
 
 ## Testing
 |     |     |
@@ -38,23 +40,43 @@ Brentp heads the list:
 | CWL | |
 | Snakemake | |
 | [Arvados](https://doc.arvados.org/main/user/cwl/cwl-extensions.html) | |
+| [Panoptes] | Snakemake workflow monitor |
+| [Mariner]{https://github.com/uc-cdis/mariner) | Gen3 Workflow execution service |
+| [Terra](https://terra.bio)  |  |
+
+### Variant Calling
+|     |     |
+| --- | --- |
+| Snps and Indels | |
+| [Varlociraptor](https://varlociraptor.github.io/docs/model/) | untested |
 
 ### Annotation
 |     |     |
 | --- | --- |
 | [VCFAnno](https://github.com/brentp/vcfanno) | |
 | Cancer Genome Interpreter | |
+| [MyVariant](https://github.com/biothings/myvariant.py) | python library to query/retrieve variant data |
+| [ellaAnno](https://gitlab.com/alleles/ella-anno/-/blob/dev/ops/datasets.json) | annotation tool to feed into Ella |
+| [g2p-aggregator](https://github.com/ohsu-comp-bio/g2p-aggregator) | VICC annotation collator |
+
+### Filtering
+|     |     |
+| --- | --- |
+| [silvar](https://github.com/brentp/slivar) | filtering and rapid query of individuals, trios and groups  |
+| [somalier](https://github.com/brentp/somalier) | filtering and extraction of informative sites |
 
 ### VCF manipulation
 |     |     |
 | --- | --- |
 | [VCFtools](https://vcftools.github.io/index.html) | |
+| [pyVCF](https://pyvcf.readthedocs.io/en/latest/index.html) | Python tools for vcf access
 
 ### Coverage
 |     |     |
 | --- | --- |
 | [Seqcover](https://github.com/brentp/seqcover) | |
-| [Mosdept])(https://github.com/brentp/mosdepth) | | 
+| [Mosdepth](https://github.com/brentp/mosdepth]| | 
+| [goleft](https://github.com/brentp/goleft) | more brentp magic |
 
 ### Conversion tools
 |     |     |
@@ -64,11 +86,17 @@ Brentp heads the list:
 ## Precision Medicine Infrastructure
 |     |     |
 | --- | --- |
-| (htsget)[] | |
-| [Passports/Visas]() | |
+| [htsget]() | |
+| [Passports/Visas](https://github.com/ga4gh/ga4gh-starter-kit-passport-admin) | Protocol specification only, not implemented|
 | [Beacons](https://beacon-network.org//#/directory) | |
+| [Data Repository Service](https://github.com/ga4gh/ga4gh-starter-kit-drs) | |
+
+### Reproducibility
+|     |     |
+| --- | --- |
+| [Truwl](https://truwl.com/workflows) | New tool, needs community take up |
 
 ## Python Tools
 |     |     |
 | --- | --- |
-| Poetry](https://github.com/python-poetry/poetry) | Dependency management |
+| [Poetry](https://github.com/python-poetry/poetry) | Dependency management |
