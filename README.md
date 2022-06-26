@@ -100,3 +100,4 @@ Brentp heads the list:
 |     |     |
 | --- | --- |
 | [Poetry](https://github.com/python-poetry/poetry) | Dependency management |
+| [mypy](https://mypy.readthedocs.io/en/latest/index.html) | Static type checking |
